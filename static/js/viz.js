@@ -28,7 +28,6 @@
  var link = svg.append("g").selectAll(".link"),
      label = svg.append("g").selectAll(".label"),
      bubble = svg.append("g").selectAll(".bubble");
-    //  bigbub = svg.appe
  
  // Add a scale for bubble size
  var bubbleSizeScale = d3.scaleLinear()
@@ -36,6 +35,7 @@
      .range([BUBBLE_SIZE_MIN, BUBBLE_SIZE_MAX]);
  
  // Scale for the bubble size'
+ // Data fetched from VizXP Paper
  d3.json("../static/json/data.json", function (error, hierarchicalData) {
      // Reformat the data
      var root = packageHierarchyRoot(hierarchicalData)
