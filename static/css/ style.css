@@ -1,0 +1,121 @@
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+  }
+  
+  .action{
+      display: block;
+      width: 500px;
+      height: 50px;
+      padding: 8px;
+      border: 1px solid grey;    
+      border-radius: 12px;
+      background-color: white;
+      text-align: center;
+      vertical-align: middle;
+      position:relative;
+  }
+  
+  .header {
+      top: 0px;
+      left: 0px;
+      right: 0px;
+      width: 100%;
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      display: inline-block;
+      background: rgb(103, 173, 219);
+      color: white;
+      font: 1.2em/1.2 'Noto Sans', sans-serif;
+      font-size: 16px;
+  }
+  
+  .action:hover{
+      background-color: rgb(133, 193, 239);
+      color:white;
+  }
+  /* For draggable lists */
+  body.dragging, body.dragging * {
+      cursor: move !important;
+    }
+    
+    .dragged {
+      position: absolute;
+      opacity: 0.5;
+      z-index: 2000;
+    }
+    
+    ol.draglist li.placeholder {
+      position: relative;
+      /** More li styles **/
+    }
+    ol.draglist li.placeholder:before {
+      position: absolute;
+      /** Define arrowhead **/
+    }
+  
+    .submitbutton{
+      position:absolute;
+      bottom: 0;
+      left: "40px";
+    }
+  
+  
+  .plan_rect{
+  
+  }
+  
+  div.tooltip2 {	
+    position: absolute;			
+    text-align: center;							
+    padding: 2px;						
+    background: whitesmoke;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;
+    font: 1.2em/1.2 'Noto Sans', sans-serif;
+    font-size: 12px;
+    white-space: pre-line; /*for newline using \n in tooltip*/
+    z-index: 1000000;
+  }
+  
+  .edit{
+    float: right;
+    color: grey;
+  }
+  .edit:hover{
+    color: black;
+  }
+  
+  .edit2{
+    margin: 5px;
+    float: right;
+    color: white;
+  }
+  .edit:hover{
+    color: black;
+  }
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  }
+  
+  .q_correct_hl{
+    background-color: #77ff32;
+  }
+  .q_incorrect_hl{
+    background-color: #ffaabb;
+  }

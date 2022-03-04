@@ -1,0 +1,32 @@
+[
+    {
+        "name": "location.city1.loc1",
+        "size": 150,
+        "imports": [
+            "location.city1.loc2",
+            "location.city2.loc3"
+        ]
+    },
+    {
+        "name": "location.city1.loc2",
+        "size": 150,
+        "imports": [
+            "location.city1.loc2"
+        ]
+    },
+    {
+        "name": "location.city2.loc3",
+        "size": 150,
+        "imports": [
+            "location.city1.loc1",
+            "location.city2.loc4"
+        ]
+    },
+    {
+        "name": "location.city2.loc4",
+        "size": 150,
+        "imports": [
+            "location.city2.loc3"
+        ]
+    }
+]
