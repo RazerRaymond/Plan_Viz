@@ -1,0 +1,6 @@
+(load-airplane package1 airplane1 location3 )
+(move-airplane airplane1 location3 location1 )
+(unload-airplane package1 airplane1 location1 )
+(load-truck package1 truck2 location1 )
+(move-truck truck2 location1 location2 city1 )
+(unload-truck package1 truck2 location2 )

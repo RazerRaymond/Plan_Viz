@@ -43,7 +43,7 @@
  
      // Build an object that gives feature of each leaves
      cluster(root);
-     leaves = root.descendants()
+     leaves = root.leaves()
 
 
      // Leaves is an array of Objects. 1 item = one leaf. Provides x and y for leaf position in the svg. Also gives details about its parent.

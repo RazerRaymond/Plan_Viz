@@ -1,32 +1,65 @@
 [
     {
-        "name": "location.city1.loc1",
-        "size": 150,
-        "imports": [
-            "location.city1.loc2",
-            "location.city2.loc3"
-        ]
+      "size": 400,
+      "name": "location.city1"
     },
     {
-        "name": "location.city1.loc2",
-        "size": 150,
-        "imports": [
-            "location.city1.loc2"
-        ]
+      "size": 400,
+      "name": "location.city2"
     },
     {
-        "name": "location.city2.loc3",
-        "size": 150,
-        "imports": [
-            "location.city1.loc1",
-            "location.city2.loc4"
-        ]
+      "size": 100,
+      "name": "location.city1.location1",
+      "imports": [
+        "location.city1.location2",
+        "location.city2.location3"
+      ]
     },
     {
-        "name": "location.city2.loc4",
-        "size": 150,
-        "imports": [
-            "location.city2.loc3"
-        ]
+      "size": 100,
+      "name": "location.city1.location2",
+      "imports": [
+        "location.city1.location1"
+      ]
+    },
+    {
+      "size": 100,
+      "name": "location.city2.location3",
+      "imports": [
+        "location.city2.location4",
+        "location.city1.location1"
+      ]
+    },
+    {
+      "size": 100,
+      "name": "location.city2.location4",
+      "imports": [
+        "location.city2.location3"
+      ]
+    },
+    {
+      "name": "package1",
+      "size": 50,
+      "location": "location.city2.location3"
+    },
+    {
+      "name": "truck1",
+      "size": 50,
+      "location": "location.city2.location4"
+    },
+    {
+      "name": "truck2",
+      "size": 50,
+      "location": "location.city1.location1"
+    },
+    {
+      "name": "airplane1",
+      "size": 50,
+      "location": "location.city2.location3"
+    },
+    {
+      "name": "airplane2",
+      "size": 50,
+      "location": "location.city1.location1"
     }
-]
+  ]

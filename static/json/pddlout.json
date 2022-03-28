@@ -1,0 +1,90 @@
+{
+    "is-package": [
+      [
+        "package1"
+      ]
+    ],
+    "is-truck": [
+      [
+        "truck1"
+      ],
+      [
+        "truck2"
+      ]
+    ],
+    "is-location": [
+      [
+        "city1"
+      ],
+      [
+        "city2"
+      ],
+      [
+        "location1"
+      ],
+      [
+        "location2"
+      ],
+      [
+        "location3"
+      ],
+      [
+        "location4"
+      ]
+    ],
+    "is-airplane": [
+      [
+        "airplane1"
+      ],
+      [
+        "airplane2"
+      ]
+    ],
+    "is-hub": [
+      [
+        "location1"
+      ],
+      [
+        "location3"
+      ]
+    ],
+    "in": [
+      [
+        "airplane1",
+        "location3"
+      ],
+      [
+        "airplane2",
+        "location1"
+      ],
+      [
+        "truck1",
+        "location4"
+      ],
+      [
+        "truck2",
+        "location1"
+      ],
+      [
+        "package1",
+        "location3"
+      ],
+      [
+        "location2",
+        "city1"
+      ],
+      [
+        "location1",
+        "city1"
+      ],
+      [
+        "location3",
+        "city2"
+      ],
+      [
+        "location4",
+        "city2"
+      ]
+    ],
+    "": []
+  }
